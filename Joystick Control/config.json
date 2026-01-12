@@ -1,0 +1,55 @@
+{
+  "gcode_settings": {
+    "coordinate_mode_absolute": "G90",
+    "coordinate_mode_relative": "G91",
+    "stop_command": "M5",
+    "pause_command": "!",
+    "resume_command": "~",
+    "home_command": "G28",
+    "units_mm": "G21",
+    "units_inches": "G20"
+  },
+  "machine_limits": {
+    "max_x": 200.0,
+    "max_y": 200.0,
+    "max_z": 100.0,
+    "min_x": 0.0,
+    "min_y": 0.0,
+    "min_z": 0.0
+  },
+  "movement_settings": {
+    "default_feed_rate": 1000,
+    "max_feed_rate": 3000,
+    "min_feed_rate": 100,
+    "default_analog_speed": 2.0,
+    "default_step_size": 1.0,
+    "step_delay_seconds": 0.2
+  },
+  "joystick_mapping": {
+    "axis_x": 0,
+    "axis_y": 1,
+    "axis_z": 3,
+    "button_toggle_mode": 0,
+    "button_speed_up": 4,
+    "button_speed_down": 5,
+    "button_save_waypoint": 1,
+    "button_cycle_waypoint": 2,
+    "button_goto_waypoint": 3,
+    "dead_zone": 0.15
+  },
+  "camera_settings": {
+    "xy_camera_index": 0,
+    "z_camera_index": 1,
+    "target_width": 640,
+    "target_height": 480
+  },
+  "waypoints": {
+    "max_waypoints": 10
+  },
+  "ui_settings": {
+    "screen_width": 1600,
+    "screen_height": 900,
+    "show_crosshair": true,
+    "terminal_lines": 10
+  }
+}
